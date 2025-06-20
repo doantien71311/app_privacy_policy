@@ -1,26 +1,26 @@
 // import { useState } from "react";
 // import reactLogo from "./assets/react.svg";
 // import viteLogo from "/vite.svg";
-import { useEffect } from "react";
+// import { useEffect } from "react";
 import imageLogo from "./assets/image_logo.png";
 // import "./App.css";
 
 function App() {
   //const [count, setCount] = useState(0);
 
-  useEffect(() => {
-    document.title = "Privacy Policy of Mrtien71311";
-    const link =
-      document.querySelector("link[rel*='icon']") ||
-      document.createElement("link");
-    link.setAttribute("link", "image/x-icon");
-    link.setAttribute("rel", "shortcut icon");
-    link.setAttribute(
-      "href",
-      "https://lh3.googleusercontent.com/d/1tqobxV2f7_dvEo_cKcWUgIsJB4XuB7BE=w100"
-    );
-    document.getElementsByTagName("head")[0].appendChild(link);
-  }, []);
+  // useEffect(() => {
+  //   document.title = "Privacy Policy of Mrtien71311";
+  //   const link =
+  //     document.querySelector("link[rel*='icon']") ||
+  //     document.createElement("link");
+  //   link.setAttribute("link", "image/x-icon");
+  //   link.setAttribute("rel", "shortcut icon");
+  //   link.setAttribute(
+  //     "href",
+  //     "https://lh3.googleusercontent.com/d/1tqobxV2f7_dvEo_cKcWUgIsJB4XuB7BE=w100"
+  //   );
+  //   document.getElementsByTagName("head")[0].appendChild(link);
+  // }, []);
 
   return (
     <>
