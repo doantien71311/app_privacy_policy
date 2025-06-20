@@ -8,8 +8,6 @@ import imageLogo from "./assets/image_logo.png";
 function App() {
   //const [count, setCount] = useState(0);
 
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />;
-
   useEffect(() => {
     document.title = "Privacy Policy of Mrtien71311";
     const link =
