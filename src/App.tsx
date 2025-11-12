@@ -3,37 +3,40 @@
 // import viteLogo from "/vite.svg";
 // import { useEffect } from "react";
 import imageLogo from "./assets/image_logo.png";
+import logoSendingExpeditionApp from "./assets/logo_sending_expedition_app.png";
 // import "./App.css";
+import { useTranslation } from "react-i18next";
+import Lang from "./Lang";
+// import { LanguageSelector } from "./componment/LanguageSelector";
 
 function App() {
-  //const [count, setCount] = useState(0);
-
-  // useEffect(() => {
-  //   document.title = "Privacy Policy of Mrtien71311";
-  //   const link =
-  //     document.querySelector("link[rel*='icon']") ||
-  //     document.createElement("link");
-  //   link.setAttribute("link", "image/x-icon");
-  //   link.setAttribute("rel", "shortcut icon");
-  //   link.setAttribute(
-  //     "href",
-  //     "https://lh3.googleusercontent.com/d/1tqobxV2f7_dvEo_cKcWUgIsJB4XuB7BE=w100"
-  //   );
-  //   document.getElementsByTagName("head")[0].appendChild(link);
-  // }, []);
+  const { t } = useTranslation();
 
   return (
     <>
+      {/* <LanguageSelector />
+      <h1>{t("greeting")}</h1> */}
       <img src={imageLogo} width={500} height={500} alt="Logo image"></img>
+      <img
+        src={logoSendingExpeditionApp}
+        width={500}
+        height={500}
+        alt="thám hiểm chi tiêu app"
+      ></img>
       <br></br>
-      <strong>Privacy Policy</strong>
+      <strong>{t(Lang.PrivacyPolicy)}</strong>
       <p>
-        This privacy policy applies to the Survey Personal Information app
-        (hereby referred to as "Application") for mobile devices that was
-        created by MrTien71311 (hereby referred to as "Service Provider") as a
-        Free service. This service is intended for use "AS IS".
+        {/* This privacy policy applies to the Survey Personal Information and Thám
+        hiểm chi tiêu (hereby referred to as "Application") for mobile devices
+        that was created by MrTien71311 (hereby referred to as "Service
+        Provider") as a Free service. This service is intended for use "AS IS". */}
+        This privacy policy applies to the mobile applications Survey Personal
+        Information app and Thám hiểm chi tiêu app (hereinafter collectively
+        referred to as the "Applications") for mobile devices. These
+        Applications were created by MrTien71311 (hereinafter referred to as the
+        "Service Provider") and are provided as free services. These services
+        are intended for use "AS IS".
       </p>
-
       <strong>Information Collection and Use</strong>
       <p>
         The Application collects information when you download and use it. This
@@ -49,7 +52,6 @@ function App() {
         <li>The operating system you use on your mobile device</li>
       </ul>
       <p></p>
-
       <p>
         The Application does not gather precise information about the location
         of your mobile device.
@@ -77,7 +79,6 @@ function App() {
           them in enhancing the Application and optimizing their offerings.
         </li>
       </ul>
-
       <p>
         The Service Provider may use the information you provided to contact you
         from time to time to provide you with important information, required
@@ -90,7 +91,6 @@ function App() {
         mrtien71311@gmail.com. The information that the Service Provider request
         will be retained by them and used as described in this privacy policy.
       </p>
-
       <strong>Third Party Access</strong>
       <p>
         Only aggregated, anonymized data is periodically transmitted to external
@@ -120,7 +120,6 @@ function App() {
         </li>
       </ul>
       <p></p>
-
       <strong>Opt-Out Rights</strong>
       <p>
         You can stop all collection of information by the Application easily by
@@ -128,7 +127,6 @@ function App() {
         available as part of your mobile device or via the mobile application
         marketplace or network.
       </p>
-
       <strong>Data Retention Policy</strong>
       <p>
         The Service Provider will retain User Provided data for as long as you
@@ -137,7 +135,6 @@ function App() {
         Application, please contact them at mrtien71311@gmail.com and they will
         respond in a reasonable time.
       </p>
-
       <strong>Children</strong>
       <p>
         The Service Provider does not use the Application to knowingly solicit
@@ -170,7 +167,6 @@ function App() {
         and procedural safeguards to protect information the Service Provider
         processes and maintains.
       </p>
-
       <strong>Changes</strong>
       <p>
         This Privacy Policy may be updated from time to time for any reason. The
@@ -186,7 +182,6 @@ function App() {
         information as set forth in this Privacy Policy now and as amended by
         us.
       </p>
-
       <strong>Contact Us</strong>
       <p>
         If you have any questions regarding privacy while using the Application,
