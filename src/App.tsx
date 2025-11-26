@@ -4,6 +4,7 @@
 // import { useEffect } from "react";
 import imageLogo from "./assets/image_logo.png";
 import logoSendingExpeditionApp from "./assets/logo_sending_expedition_app.png";
+import logoDailyEnExposureApp from "./assets/logo_daily_en_exposure_app.png";
 // import "./App.css";
 import { useTranslation } from "react-i18next";
 import Lang from "./Lang";
@@ -23,6 +24,12 @@ function App() {
         height={500}
         alt="thám hiểm chi tiêu app"
       ></img>
+      <img
+        src={logoDailyEnExposureApp}
+        width={500}
+        height={500}
+        alt="tiếp xúc EN hằng ngày app"
+      ></img>
       <br></br>
       <strong>{t(Lang.PrivacyPolicy)}</strong>
       <p>
@@ -31,11 +38,11 @@ function App() {
         that was created by MrTien71311 (hereby referred to as "Service
         Provider") as a Free service. This service is intended for use "AS IS". */}
         This privacy policy applies to the mobile applications Survey Personal
-        Information app and Thám hiểm chi tiêu app (hereinafter collectively
-        referred to as the "Applications") for mobile devices. These
-        Applications were created by MrTien71311 (hereinafter referred to as the
-        "Service Provider") and are provided as free services. These services
-        are intended for use "AS IS".
+        Information app, Thám hiểm chi tiêu app, and Tiếp xúc EN hằng ngày app
+        (hereinafter collectively referred to as the "Applications") for mobile
+        devices. These Applications were created by MrTien71311 (hereinafter
+        referred to as the "Service Provider") and are provided as free
+        services. These services are intended for use "AS IS".
       </p>
       <strong>Information Collection and Use</strong>
       <p>
